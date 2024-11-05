@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./img/Body.png');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 55rem; /*largura*/
+    height: 30rem; /*altura*/
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+    width: 35%;
+    border-radius: 20px 0 0 20px;
+    background-color: #e9e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    margin: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.right-side {
+    background-color: lightgrey;
+    width: 65%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-btn {
+    background-color: black;
+    color: white;
+    width: 10rem;
+}
+
+.create-account {
+    position: relative;
+    bottom: 3rem;
+    left: 12rem; 
+    width: 8rem; 
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem; 
+    margin: 1rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    position: relative;
+    bottom: 2rem;
+}
